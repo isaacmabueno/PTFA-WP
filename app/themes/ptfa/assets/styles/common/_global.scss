@@ -53,7 +53,7 @@ img {
 }
 
 a {
-  color: $brand-black;
+  color: $brand-cream;
   // text-decoration: underline;
   &:hover {
     color: $brand-gold;
@@ -61,6 +61,8 @@ a {
 }
 .nav-primary {
   font-family: $header-font;
+  position: absolute;
+  z-index: 1;
 }
 .pages-hero {
   position: relative;

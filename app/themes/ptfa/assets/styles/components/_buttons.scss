@@ -2,8 +2,8 @@
   font-family: $main-font;
   font-size: 22px;
   font-weight: 100;
-  background-color: transparent;
-  color: $brand-cream;
+  background-color: rgba($brand-cream, .7);
+  color: $brand-gold;
   text-transform: uppercase;
   border-radius: 0;
   border: $brand-cream 2px solid;

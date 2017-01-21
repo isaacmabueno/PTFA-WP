@@ -5,6 +5,7 @@
   </div>
 </section>
 
-<section>
+<section class="home-hero" style="background-image: url('/isaac/web/app/uploads/2017/01/main2.jpg');">
+  <h1></h1>
 
 </section>
