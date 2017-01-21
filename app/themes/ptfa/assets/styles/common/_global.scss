@@ -1,1 +1,311 @@
 
+body {
+  font-family: $main-font;
+  color: $brand-black !important;
+  letter-spacing: 2;
+}
+h1 {
+  font-family: $header-font;
+  font-size: 6rem;
+  margin-bottom: 6rem;
+}
+h2 {
+  font-family: $header-font;
+  font-size: 4.4rem;
+  color: $brand-black;
+  margin-bottom: 4rem;
+}
+// .sans-serif  {
+//   h1, h2, h3, h4, h5 {
+//     font-family: $main-font !important;
+//   }
+// }
+h3 {
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 3.6rem;
+  color: $brand-black;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+h4 {
+  font-family: $main-font;
+  font-weight: 300;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: $brand-black;
+}
+h5 {
+  text-transform: uppercase;
+}
+p {
+  font-family: $main-font;
+  font-weight: 300;
+  color: $brand-black;
+  font-size: 1.8rem;
+  // letter-spacing: 1px;
+  line-height: 2.3;
+  padding-bottom: 1.8rem;
+  margin-bottom: 0;
+}
+img {
+  width: 100%;
+}
+
+a {
+  color: $brand-black;
+  // text-decoration: underline;
+  &:hover {
+    color: $brand-gold;
+  }
+}
+.nav-primary {
+  font-family: $header-font;
+}
+.pages-hero {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  color: #fff;
+  text-align: center;
+  margin-top: 120px;
+  padding-bottom: 50px;
+
+  @media ( min-width: $screen-sm ) {
+    text-align: center;
+    height: 300px;
+
+  @media ( min-width: $screen-md ) {
+    height: 450px;
+    text-align: center;
+
+  @media ( min-width: $screen-lg ) {
+    text-align: center;
+    height: 400px;
+      }
+    }
+  }
+}
+main {
+  padding: 0 !important;
+}
+.course-wrapping {
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  h2 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+.home-quote {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.font-header-two {
+  text-align: center;
+  font-family: "Courgette";
+  font-size: 4.5rem;
+}
+.text-box {
+  height: 300px;
+  background: $brand-black;
+  h2, p {
+    color: $brand-white;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+}
+.image-box {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  display: table;
+  // width: 100%;
+  // @media screen and (min-width: $screen-sm) {
+  //   width: auto;
+  // }
+}
+.spacing-all {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.top-space {
+  margin-top: 5%;
+}
+.bottom-space {
+  margin-bottom: 5%;
+}
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.padding-base {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.padding-base-top {
+  padding-top: 75px;
+}
+.padding-base-bottom {
+  padding-bottom: 75px;
+}
+.overlay-bg {
+  box-shadow: inset 0 0 0 750pt rgba(33, 47, 66, 0.4)!important;
+  -moz-box-shadow: inset 0 0 0 750pt rgba(33, 47, 66, 0.4)!important;
+  -webkit-box-shadow: inset 0 0 0 750pt rgba(33, 47, 66, 0.4)!important;
+}
+
+.hero-text-overlay {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  text-align: center;
+  color: $brand-cream;
+  h1 {
+    margin: 0;
+  }
+}
+// .hero-text-overlay {
+//   h1 {
+//     font-size: 5rem;
+//     padding-top: 100px;
+//     @media ( min-width: $screen-xs ) {
+//       padding: 0;
+//       font-size: 4rem;
+//     @media ( min-width: $screen-md ) {
+//       font-size: 5rem;
+//       padding-top: 50px !important;
+//       }
+//     }
+//   }
+// }
+.services-card {
+  background-color: $brand-cream;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  width: auto;
+  padding: 1rem 3rem;
+  h4 {
+    color: white;
+    font-weight: 100;
+  }
+}
+
+
+.classes-cta {
+  text-align: center;
+  padding-bottom: 3rem;
+  .btn {
+    float: none;
+  }
+}
+// .navbar-default .navbar-nav > .active > a {
+//   background-color: transparent;
+//   color: $brand-cream;
+//   border-bottom: 1px solid $brand-cream;
+//   &:hover {
+//     background-color: transparent;
+//     color: $brand-cream;
+//     border-bottom: 1px solid $brand-cream;
+//   }
+// }
+
+.newsletter {
+  background-color: $brand-cream;
+  height: auto;
+  text-align: center;
+  padding: 3rem !important;
+  h2 {
+    float: left;
+    text-align: center;
+    color: $brand-white;
+    font-family: $header-font;
+    margin: 5px 0 0 0;
+  }
+  .btn {
+    margin: 0;
+    margin-left: 40px;
+  }
+}
+
+
+.testimonial {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 50px;
+  // position: relative;
+  // min-height: 350px;
+  height: auto;
+  .client-name {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-family: $header-font;
+    margin-top: 15px;
+  }
+}
+.newsletter .btn {
+  margin: 5% 0 0 30%;
+
+  @media ( min-width: $screen-xs ) {
+    margin: 0 0 0 2%;
+  }
+
+  @media ( min-width: $screen-sm ) {
+    margin: 0 0 0 1%;
+  }
+
+  @media ( min-width: $screen-md ) {
+    margin: 0 0 0 20%;
+  }
+
+  @media ( min-width: $screen-lg ) {
+    margin-left: 5%;
+  }
+}
+.newsletter h2 {
+  float: left;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Courgette", serif;
+  margin: 5px 0 0 0;
+  @media ( min-width: $screen-sm ) {
+      margin: 5px 5px 5px 5%;
+  }
+
+  @media ( min-width: $screen-md ) {
+    margin: 5px 5px 5px 10%;
+  }
+
+  @media ( min-width: $screen-lg ) {
+    margin: 5px 5px 5px 15%;
+  }
+}
+.quotes {
+  width: 20%;
+  @media ( min-width: $screen-sm ) {
+    width: 10%;
+  }
+  @media ( min-width: $screen-md ) {
+    width: 100%;
+  }
+}

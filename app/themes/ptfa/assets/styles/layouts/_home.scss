@@ -1,0 +1,53 @@
+.home-hero {
+  color: #fff;
+  position: relative;
+  background-color: $brand-black;
+  background-position: 42%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  h1 {
+    margin-bottom: 45px;
+  }
+  @media ( min-width: $screen-md ) {
+    height: 650px;
+  }
+  @media ( min-width: $screen-lg ) {
+    height: 800px;
+  }
+}
+  .hero-text-overlay {
+    top: 30%;
+    position: center;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    h1 {
+      margin: 0;
+    }
+    @media ( min-width: $screen-md ) {
+      height: 700px;
+    }
+    @media ( min-width: $screen-lg ) {
+      height: 850px;
+    }
+}
+.logo-letterform {
+  width: 325px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 1%;
+  @media ( min-width: $screen-sm ) {
+    width: 600px;
+    height: auto;
+  }
+  @media ( min-width: $screen-md ) {
+    width: 800px;
+  }
+  @media ( min-width: $screen-lg ) {
+    width: 1025px;
+  }
+}

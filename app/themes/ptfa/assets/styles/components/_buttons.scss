@@ -1,0 +1,21 @@
+.btn-ghost-cream {
+  font-family: $main-font;
+  font-size: 22px;
+  font-weight: 100;
+  background-color: transparent;
+  color: $brand-cream;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: $brand-cream 2px solid;
+  padding: 10px 25px;
+  transition: all 0.3s;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  &:hover {
+    border: $brand-cream 2px solid;
+    background-color: $brand-cream;
+    color: $brand-black;
+    text-decoration: none;
+
+  }
+}
