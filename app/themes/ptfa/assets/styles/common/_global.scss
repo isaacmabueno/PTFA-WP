@@ -3,6 +3,7 @@ body {
   font-family: $main-font;
   color: $brand-black !important;
   letter-spacing: 2;
+  background-color: $brand-cream;
 }
 h1 {
   font-family: $header-font;
@@ -15,11 +16,6 @@ h2 {
   color: $brand-black;
   margin-bottom: 4rem;
 }
-// .sans-serif  {
-//   h1, h2, h3, h4, h5 {
-//     font-family: $main-font !important;
-//   }
-// }
 h3 {
   font-family: $main-font;
   font-weight: 400;
@@ -42,27 +38,28 @@ p {
   font-family: $main-font;
   font-weight: 300;
   color: $brand-black;
-  font-size: 1.8rem;
-  // letter-spacing: 1px;
-  line-height: 2.3;
+  font-size: 1.3rem;
   padding-bottom: 1.8rem;
   margin-bottom: 0;
 }
 img {
   width: 100%;
 }
-
+.nav-primary {
+  font-family: $header-font;
+  position: fixed;
+  z-index: 1;
+  margin-top: 5%;
+}
 a {
   color: $brand-cream;
-  // text-decoration: underline;
   &:hover {
     color: $brand-gold;
   }
-}
-.nav-primary {
-  font-family: $header-font;
-  position: absolute;
-  z-index: 1;
+  li {
+    margin-top: 5%;
+    font-size: 3em;
+  }
 }
 .pages-hero {
   position: relative;
