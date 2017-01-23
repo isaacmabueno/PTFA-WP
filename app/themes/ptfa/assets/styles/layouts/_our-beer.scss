@@ -21,7 +21,7 @@ h1 {
   margin-bottom: 0;
 }
 .beer-label {
-  padding-top: 5%;
+  padding: 5% 0;
   display: block;
   max-width: 40%;
   height: auto;
@@ -29,17 +29,32 @@ h1 {
   margin-right: auto;
 }
 .english-bg {
-  background-color: rgba(#933837, 0.5);
+  background-color: rgba(#933837, 0.4);
+  background-position-x: 40%;
+  background-position-y: 20%;
 }
-
-
-
-
-
-
-
+.esb-bg {
+  background-color: rgba(#9CBA5F, 0.4);
+  background-position-x: 0%;
+  background-position-y: 20%;
+}
+.stout-bg {
+  background-color: rgba(#4A452A, 0.7);
+  background-position-x: 40%;
+  background-position-y: 20%;
+}
+.ipa-bg {
+  background-color: rgba(#CA661A, 0.4);
+  background-position-x: -50%;
+  background-position-y: 20%;
+}
+.ypa-bg {
+  background-color: rgba(#0099FE, 0.4);
+  background-position-x: 40%;
+  background-position-y: 20%;
+}
 .beer-desc {
-  margin-top: 20%;
+  margin-top: 10%;
   font-family: "Open Sans Condensed";
   font-size: 1em;
 }
