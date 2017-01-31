@@ -1,0 +1,48 @@
+.seasonal {
+  font-family: "Archivo narrow";
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: center !important;
+	margin-bottom: 40px;
+	list-style-type: none;
+}
+.details {
+	text-align: center;
+  color: rgb(153, 101, 21);
+  font-family: "Archivo Narrow";
+}
+.pad {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 2%;
+}
+.test {
+	border-radius: 50%;
+	background: rgba(11, 63, 44, 0.95);
+	height: 375px;
+	width: 375px;
+	padding-top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.press-link {
+	font-family: "Oswald";
+	font-size: 1.3em;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.press-desc {
+	width: 60%;
+	color: grey;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-family: "Open Sans Condensed";
+	font-size: 17px;
+}
