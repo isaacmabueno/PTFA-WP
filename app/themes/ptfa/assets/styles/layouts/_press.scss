@@ -21,19 +21,19 @@
 	padding: 2%;
 }
 .test {
-	// border-radius: 50%;
-  // float: left;
 	background: rgba(11, 63, 44, 0.95);
 	height: auto;
-	width: auto;
-	margin-top: 5%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+  padding: 5%;
+  margin-top: 2px;
   @media ( min-width: $screen-md ) {
-    // height: 350px;
-    // width: 350px;
-    margin-top: 5%;
+    width: 75%;
+  }
+  @media ( min-width: $screen-lg ) {
+    width: 50%;
   }
 }
 .test>h3 {
