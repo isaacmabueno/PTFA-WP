@@ -23,15 +23,25 @@ h1 {
 .beer-label {
   padding: 5% 0;
   display: block;
-  max-width: 40%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  @media ( min-width: $screen-md ) {
+  max-width: 40%;
+  }
+}
+.label-desc {
+  font-size: 1em;
+  padding-bottom: 0.5em;
 }
 .english-bg {
   background-color: rgba(#933837, 0.4);
-  background-position-x: 40%;
-  background-position-y: 20%;
+  background-position-x: 76%;
+  background-position-y: 0;
+  @media ( min-width: $screen-md ) {
+    background-position-x: 40%;
+    background-position-y: 20%;
+  }
 }
 .esb-bg {
   background-color: rgba(#9CBA5F, 0.4);
@@ -50,13 +60,27 @@ h1 {
 }
 .ypa-bg {
   background-color: rgba(#0099FE, 0.4);
-  background-position-x: 40%;
-  background-position-y: 20%;
+  background-position-x: 20%;
+  background-position-y: 10%;
+  @media ( min-width: $screen-md ) {
+    background-position-x: 40%;
+    background-position-y: 20%;
+  }
 }
 .beer-desc {
   margin-top: 10%;
   font-family: "Open Sans Condensed";
   font-size: 1em;
+  p {
+    color: $brand-white;
+    @media ( min-width: $screen-md ) {
+      font-size: 1em;
+      padding-bottom: 0.5em;
+    }
+  }
+  .details {
+    color: $brand-gold;
+  }
 }
 .details {
   text-align: center;
