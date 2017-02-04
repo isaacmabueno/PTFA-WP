@@ -1,18 +1,51 @@
-.mailer-head {
-		text-transform: uppercase;
-	}
 	.height-img {
 		height: 400px;
 		width: 100%;
 	}
+  #mc_embed_signup {
+		background:#fff;
+		clear:left;
+		font: 14px Helvetica,Arial,sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		margin-top: 25px;
+		margin-bottom: 50px;
+    @media ( min-width: $screen-xs ) {
+      width: 450px;
+    }
+    @media ( min-width: $screen-sm ) {
+      width: 600px;
+    }
+    @media ( min-width: $screen-md ) {
+      width: 800px;
+    }
+	}
+	#mc_embed_signup .button {
+		background: rgba(11, 63, 44, 0.95);
+		font-family: "Oswald";
+	}
+  #mc_embed_signup .mc-field-group input {
+    font-family: "Oswald";
+  }
+	.mailer-head {
+		font-family: "Oswald";
+		text-transform: uppercase;
+	}
 	.c-email {
 	  font-family: "Archivo Narrow";
-	  font-size: 1.8em;
+	  font-size: 1.5em;
 	  text-align: center;
+    @media ( min-width: $screen-md ) {
+      font-size: 1.8em;
+    }
 	}
 	.email a{
 		font-family: "Archivo Narrow";
-		font-size: 0.7em;
+		font-size: 0.6em;
 		color: black;
 		text-align: center;
+    @media ( min-width: $screen-md ) {
+      font-size: 0.7em;
+    }
 	}
