@@ -1,8 +1,8 @@
-<section class="container-fluid beer-title">
+<!-- <section class="container-fluid beer-title">
   <h1 class="brewline1">THE</h1>
   <h1 class="brewline">BEER</h1>
   <hr>
-</section>
+</section> -->
 
 <section class="english-bg container-fluid" style="background-image:url('/isaac/web/app/uploads/2017/01/englishbg.png');">
   <div class="row">

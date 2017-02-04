@@ -49,9 +49,13 @@ h1 {
   background-position-y: 20%;
 }
 .stout-bg {
-  background-color: rgba(#4A452A, 0.7);
+  background-color: rgba(#4A452A, 0.4);
   background-position-x: 40%;
   background-position-y: 20%;
+  @media ( min-width: $screen-md ) {
+    background-position-x: 10%;
+    background-position-y: 20%;
+  }
 }
 .ipa-bg {
   background-color: rgba(#CA661A, 0.4);
